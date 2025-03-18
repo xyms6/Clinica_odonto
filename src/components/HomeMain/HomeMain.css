@@ -1,0 +1,89 @@
+.home-main {
+    padding: 2rem;
+  }
+   
+  .servicos,
+  .aparelho,
+  .depoimentos {
+    margin-bottom: 2rem;
+  }
+   
+  .servicos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+  }
+   
+  .servicos h2,
+  .aparelho h2, p,
+  .depoimentos h2{
+    display: flex;
+    justify-content: center;
+  }
+   
+  /* Estilos para a grade de serviços */
+  .servicos-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 30vw); /* 2 colunas */
+    gap: 1rem; /* Espaçamento entre os itens */
+  }
+   
+  .servico-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    /* background: #ebebeb; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+   
+  .servico-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+  }
+   
+  .servico-item span {
+    font-weight: bold;
+  }
+   
+  .aparelho img{
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+   
+  .depoimentos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+   
+  .botao-contato {
+    display: block;
+    margin: 0 auto;
+    background-color: #28a745;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  }
+   
+  .mensagem-contato {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    text-align: center;
+    border-top: 1px solid #000000;
+  }
