@@ -1,0 +1,75 @@
+.contato-mapa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contato-mapa h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .dentistas-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dentista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1rem;
+    flex-basis: calc(33.33% - 1rem);
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .dentista:hover {
+    transform: translateY(-5px);
+  }
+  
+  .dentista img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .dentista h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color: #007bff;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .dentista p {
+    margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .dentistas-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .dentista {
+      margin-bottom: 1rem;
+    }
+  }
