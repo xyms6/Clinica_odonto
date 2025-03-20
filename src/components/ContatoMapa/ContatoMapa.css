@@ -55,14 +55,23 @@
   .dentista h3 {
     margin-bottom: 0.5rem;
     font-size: 1.2rem;
-    color: #007bff;
+    color: #525457;
     transition: color 0.3s ease-in-out;
   }
   
   .dentista p {
     margin: 0;
   }
+
+  .telefones {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color: #525457;
+    transition: color 0.3s ease-in-out;
+  }
   
+  
+
   @media (max-width: 768px) {
     .dentistas-container {
       flex-direction: column;
@@ -73,3 +82,5 @@
       margin-bottom: 1rem;
     }
   }
+
+  

@@ -83,12 +83,15 @@ export default function HomeMain() {
                 Entre em contato
             </button>
 
+            
+
             {mostrarMensagem && (
                 <div className="mensagem-contato">
                     <p>Entre em contato conosco pelo telefone (11) 1234-5678 ou 
                         em envie um e-mail para <a href="mailto:contato@clinicasorriso.com">contato@clinicasorriso.com</a>.</p>
                 </div>
             )}
+            
         </main>
     );
 }
