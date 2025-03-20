@@ -1,5 +1,11 @@
 .home-main {
     padding: 2rem;
+    background-color: #f8f9fa;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
    
   .servicos,
@@ -65,6 +71,57 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    gap: 1rem;
+  }
+   
+  .depoimento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    flex-basis: calc(33.33% - 1rem);
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+   
+  .depoimento:hover {
+    transform: translateY(-5px);
+  }
+   
+  .depoimento img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+  }
+   
+  .depoimento h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+   
+  .depoimento p {
+    font-size: 0.9rem;
+    color: #777;
+  }
+   
+  .contato-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+   
+  .contato-container h2 {
+    margin-bottom: 1rem;
   }
    
   .botao-contato {

@@ -69,11 +69,12 @@ export default function HomeMain() {
                 <h2>Depoimentos</h2>
                 <div className="depoimentos-grid">
                     {depoimentos.map((depoimento, index) => (
-                        <Depoimento key={index} 
-                        nome={depoimento.nome} 
-                        foto={depoimento.foto} 
-                        texto={depoimento.texto}
-                         />
+                        <Depoimento
+                            key={index}
+                            nome={depoimento.nome}
+                            foto={depoimento.foto}
+                            texto={depoimento.texto}
+                        />
                     ))}
                 </div>
             </section>
@@ -91,3 +92,5 @@ export default function HomeMain() {
         </main>
     );
 }
+
+export { HomeMain };
